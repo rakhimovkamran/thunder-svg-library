@@ -1,0 +1,38 @@
+{
+    "name": "thunder-svg-library",
+    "version": "1.0.0",
+    "description": "JavaScript SVG Library",
+    "scripts": {
+        "start": "ws --hostname localhost --open",
+        "test": "cross-env NODE_ENV=test mocha './test/*.test.js' || true",
+        "test:thunder": "cross-env NODE_ENV=test mocha './test/thunder.test.js' || true"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rakhimovkamran/thunder-svg-library"
+    },
+    "author": {
+        "name": "Kamran Rakhimov",
+        "email": "rakhimovkamran@gmail.com"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/rakhimovkamran/thunder-svg-library/issues"
+    },
+    "homepage": "https://github.com/rakhimovkamran/thunder-svg-library#readme",
+    "dependencies": {
+        "chai": "^4.2.0",
+        "cheerio": "^1.0.0-rc.3",
+        "cross-env": "^5.2.0",
+        "dot-object": "^1.9.0",
+        "jscodeshift": "^0.6.4",
+        "mocha": "^6.2.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.9.0",
+        "eslint-config-prettier": "^8.4.0",
+        "eslint-plugin-prettier": "^4.0.0",
+        "local-web-server": "^3.0.7",
+        "prettier": "^2.5.1"
+    }
+}
